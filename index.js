@@ -8,6 +8,8 @@ if (feet<=400){
 }
 }
 
+//console.log(scuberGreetingForFeet(2100));
+
 function ternaryCheckCity(city){
   const cityMessage = city=== "NYC" ? "Ok, sounds good." : "No go.";
   return cityMessage;
@@ -29,4 +31,4 @@ function switchOnCharmFromTip(tip){
 }
 
 
-console.log(switchOnCharmFromTip('generous'));
+//console.log(switchOnCharmFromTip('generous'));
